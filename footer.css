@@ -21,7 +21,7 @@ footer > p {
 footer > p > a {
     font-size: 30px;
     text-decoration: underline black;
-    color: green;
+    color: rgb(90, 192, 90)
 }
 
 #horizontal-line2 {
