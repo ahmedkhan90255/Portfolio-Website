@@ -1,0 +1,49 @@
+/* It is the styling of border line before footer */
+#horizontal-line {
+    border: 1px solid grey;
+    width: 85%;
+}
+article {
+    display: flex;
+    justify-content: center;
+}
+
+/* Styling of Footer Starts From here */
+
+footer {
+    padding: 60px;
+    color: grey;
+    font-size: 25px;
+}
+footer > p {
+    font-size: 30px;
+}
+footer > p > a {
+    font-size: 30px;
+    text-decoration: underline black;
+    color: green;
+}
+
+#horizontal-line2 {
+    border: 1px solid grey;
+    width: 100%;
+}
+
+#social-media-links {
+    display: flex;
+    gap: 20px;
+}
+
+#social-media-links > a {
+    color: darkseagreen;
+    text-decoration: none;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    #social-media-links > a {
+        font-size: 20px;
+    }
+    #social-media-links {
+        gap: 10px;
+    }
+}
